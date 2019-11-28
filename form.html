@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="img/logo.png" type="image/x-icon">
+    <title>Опитування</title>
+</head>
+<body>
+    <header>
+        <img width="150" src="img/logo.png" alt="logo Ukraine">
+        <h1>Україна 2019</h1>
+        <p><strong>Центр соціальних опитувань</strong></p>
+    </header>
+    <hr>
+    <nav >
+        <a href="index.html">Головна</a>
+        <a href="">Проекти</a>
+        <a href="#footer">Контакти</a></nav>
+    <hr>
+    <div>
+        <h1 align="center">Опитування</h1>
+       <form action="https://formspree.io/xkngowpv" method="POST" id="form">
+            <ol>
+                <li><label>Ім'я:<input type="text" name="Ім'я" placeholder="Ім'я" required></label></li><br>
+                <li><label>Прізвище:<input type="text" name="Прізвище" placeholder="Прізвище" required></label></li><br>
+                <li><label>По батькові:<input type="text" name="По батькові" placeholder="По батькові" required></label></li><br>
+                <li><label>Електронна пошта:<input type="email" name="@mail" placeholder="Ел. пошта"></label></li><br>
+                <li><label>Номер телефону:<input type="tel" name="tel" placeholder="+380"></label></li><br>
+                <li><label>Вік:<input type="number" required></label></li><br>
+                <li><label>Дата народження:<input type="date" min="1950-01-01" max="2019-01-01" required></label></li><br>
+                <li><label>Ваша освіта:
+                        <select name="num" form="form">
+                            <option value="1">Середня</option>
+                            <option value="2">Незакінченя вища</option>
+                            <option value="3">Вища</option>
+                        </select><br>
+                    </label>
+                <li><label>Діяльність:<br>
+                    <input type="checkbox" name="ans1" value="student">Студент<br>
+                    <input type="checkbox" name="ans2" value="employed">Працюю<br>
+                    <input type="checkbox" name="ans3" value="unemployed" checked>Безробітний(на)<br> 
+                </label></li><br>
+                <li>
+                    <label>Стать:
+                        <input type="radio" id="gender1" name="contact" value="male">
+                        <label for="gender1">Чоловіча</label>
+                        <input type="radio" id="gender2" name="contact" value="female">
+                        <label for="gender2">Жіноча</label>
+                        <input type="radio" id="gender3" name="contact" value="other">
+                        <label for="gender3">Інше</label>
+                    </label>
+                <li><label>Оберіть Ваш улюблений колір:<input type="color" name="" id=""></li></label><br>
+                <li><label>В котрій годині Ви зазвичай лягаєте спати: <input type="time"> </label></li><br>
+                <li><fieldset>
+                    <legend>Виберіть кращий фільм:</legend>
+
+                    <input type="radio" id="star-w" name="film">
+                    <label for="star-w">Зоряні Війни</label><br/>
+
+                    <input type="radio" id="Harry-p" name="film">
+                    <label for="Harry-p">Гаррі Поттер</label><br/>
+
+                    <input type="radio" id="lord-r" name="film">
+                    <label for="lord-r">Володар кілець</label>
+                </fieldset></li><br>
+                <li><label>Ваше хобі;<textarea name="" id=""></textarea> </label></li><br>
+                <label>Згода на обробку персональних даних:
+                    <input type="checkbox" name="agree" value="agree">
+                        <label for="agree">Згоден</label><br>
+                    <label><input type="submit" value="Завершити опитування"></label>
+                    <label><input type="reset" value="Скинути"></label>
+            </ol>
+        </form>
+    </div>
+    <hr>
+    <footer id="footer">
+        <address>Центр соціальних опитувань"Україна 2019"
+        <br>Україна
+        <br>м.Львів
+        <br>вул.Вулиця 48
+        <br>тел. +380320000000
+        <br>@mail: ukraine_2019@gmail.com
+        </address>
+    </footer>
+</body>
+</html>
+</body>
+</html>
