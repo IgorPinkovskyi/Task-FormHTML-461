@@ -37,42 +37,51 @@
                             <option value="3">Вища</option>
                         </select>
                     </label></p>
-                <li>
-                    <label>Діяльність:<br>
+                <li>Діяльність:<br>
                         <input type="checkbox" name="ans1" value="student">Студент<br>
                         <input type="checkbox" name="ans2" value="employed">Працюю<br>
                         <input type="checkbox" name="ans3" value="unemployed">Безробітний(на)<br> 
-                    </label></li><br>
-                <li>
-                    <label>Стать:
+                </li>
+                <li>Стать:
                         <input type="radio" id="gender1" name="contact" value="male">
                         <label for="gender1">Чоловіча</label>
                         <input type="radio" id="gender2" name="contact" value="female">
                         <label for="gender2">Жіноча</label>
                         <input type="radio" id="gender3" name="contact" value="other">
                         <label for="gender3">Інше</label>
+                </li>
+                <li>Оберіть Ваш улюблений колір:
+                    <input type="color" id="fav-col" name="fav-col" value="#000000">
+                </li>
+                <li>
+                    <label>В котрій годині Ви зазвичай лягаєте спати: 
+                        <input type="time">
                     </label>
-                <li><label>Оберіть Ваш улюблений колір:<input type="color" name="" id=""></li></label><br>
-                <li><label>В котрій годині Ви зазвичай лягаєте спати: <input type="time"> </label></li><br>
-                <li><fieldset>
-                    <legend>Виберіть кращий фільм:</legend>
+                </li>
+                <li>
+                    <fieldset>
+                        <legend>Виберіть кращий фільм:</legend>
 
-                    <input type="radio" id="star-w" name="film">
-                    <label for="star-w">Зоряні Війни</label><br/>
+                            <input type="radio" id="star-w" name="film">
+                            <label for="star-w">Зоряні Війни</label><br/>
 
-                    <input type="radio" id="Harry-p" name="film">
-                    <label for="Harry-p">Гаррі Поттер</label><br/>
+                            <input type="radio" id="Harry-p" name="film">
+                            <label for="Harry-p">Гаррі Поттер</label><br/>
 
-                    <input type="radio" id="lord-r" name="film">
-                    <label for="lord-r">Володар кілець</label>
-                </fieldset></li><br>
-                <li><label>Ваше хобі:<textarea name="" id=""></textarea> </label></li><br>
-                <label>Згода на обробку персональних даних:
-                    <input type="checkbox" name="agree" value="agree">
-                        <label for="agree">Згоден</label><br>
-                    <label><input type="submit" value="Завершити опитування"></label>
-                    <label><input type="reset" value="Скинути"></label>
+                            <input type="radio" id="lord-r" name="film">
+                            <label for="lord-r">Володар кілець</label>
+                    </fieldset>
+                </li>
+                <li>Ваше хобі:
+                    <textarea rows="10" cols="45" name="text"></textarea>
+                </li>
             </ol>
+                <fieldset>
+                    <legend>Згода на обробку персональних даних:</legend>
+                    <input type="checkbox" name="agree" value="agree">
+                </fieldset>
+                    <label><input type="submit" value="Завершити опитування"></label>
+                    <label><input type="reset" value="Скинути"></label>   
         </form>
     </div>
     <hr>
@@ -85,7 +94,5 @@
         <br>@mail: ukraine_2019@gmail.com
         </address>
     </footer>
-</body>
-</html>
 </body>
 </html>
